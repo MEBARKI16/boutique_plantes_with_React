@@ -1,4 +1,5 @@
 import { PlantList } from '../datas/PlantList'
+import "../styles/ShoppingList.css"
 
 function ShoppingList() {
 	const categories = PlantList.reduce(
@@ -14,9 +15,10 @@ function ShoppingList() {
 					<li key={cat}>{cat}</li>
 				))}
 			</ul>
-			<ul>
+			<ul className='imj-plant-list'>
 				{PlantList.map((plant) => (
-					<li key={plant.id}>{plant.name}{plant.isBestSale && <span>🔥</span>}</li>
+					<li key={plant.id} className="imj-plant-item">{plant.name}{plant.isBestSale && <span>🔥</span>}
+                    {plant.isSpecialOffer && <div className='imj-sales'>Solde</div>}</li>
 				))}
                 
 			</ul>

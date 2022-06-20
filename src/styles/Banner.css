@@ -2,11 +2,10 @@
 {
     color: black;
     text-align: right;
-    padding: 32px;
+   padding: 32px;
+    padding-right: 100px;
     border-bottom: solid 3px black;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
+   
 }
 .img-title
 {
@@ -16,4 +15,10 @@
 {
     width: 45px;
     height: 45px;
+}
+.img-banner-row
+{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
