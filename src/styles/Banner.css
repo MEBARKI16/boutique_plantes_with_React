@@ -1,24 +1,19 @@
-.imj-banner
-{
-    color: black;
-    text-align: right;
-   padding: 32px;
-    padding-right: 100px;
-    border-bottom: solid 3px black;
-   
+.lmj-banner {
+	color: black;
+	text-align: right;
+	padding: 32px;
+	border-bottom: solid 3px black;
+	display: flex;
+	justify-content: flex-end;
+	flex-direction: row;
+	align-items: center;
 }
-.img-title
-{
-    padding-left: 32px;
+
+.lmj-title {
+	padding-left: 32px;
 }
-.img-logo
-{
-    width: 45px;
-    height: 45px;
-}
-.img-banner-row
-{
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
+
+.lmj-logo {
+	height: 45px;
+	width: 45px;
 }
